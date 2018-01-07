@@ -105,7 +105,7 @@
 
 		function cleanup(widget, hideTabAfterLoad){
 			widget.firstElementChild.firstElementChild.innerText = extractShelfName(widget.firstElementChild.firstElementChild.innerText);
-			widget.firstElementChild.firstElementChild.href = fixLink(widget.firstElementChild.firstElementChild.href);
+			//widget.firstElementChild.firstElementChild.href = fixLink(widget.firstElementChild.firstElementChild.href);
 
 			if(settings.hideEmptyShelves && widget.childElementCount == 1){
 				widget.style = "display:none"
