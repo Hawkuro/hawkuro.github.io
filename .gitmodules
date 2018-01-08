@@ -1,0 +1,4 @@
+[submodule "GrouveeShelves"]
+	path = GrouveeShelves
+	url = https://github.com/Hawkuro/GrouveeShelves.git
+	branch = pages
